@@ -1,0 +1,20 @@
+{
+  "description": {
+    "en": "Facebook Comments",
+    "ru": "Facebook Comments",
+    "uk": "Facebook Comments"
+  },
+  "url": "https://github.com/pytsite/plugin-facebook",
+  "author": {
+    "name": "Alexander Shepetko",
+    "email": "a@shepetko.com",
+    "url": "https://shepetko.com"
+  },
+  "requires": {
+    "packages": [],
+    "plugins": [
+      "facebook",
+      "comments"
+    ]
+  }
+}
