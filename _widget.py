@@ -27,7 +27,7 @@ class Comments(_widget.Abstract):
         }
         _assetman.add_inline(_tpl.render('facebook@fb-js-sdk', js_sdk_args))
 
-    def get_html_em(self, **kwargs) -> _html.Element:
+    def _get_element(self, **kwargs) -> _html.Element:
         """Get an HTML element representation of the widget.
         :param **kwargs:
         """
