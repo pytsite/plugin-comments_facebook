@@ -77,4 +77,4 @@ class Driver(_comments.driver.Abstract):
     def get_permissions(self, user: _auth.model.AbstractUser = None) -> dict:
         """Get permissions definition for user.
         """
-        raise NotImplementedError("Not implemented yet.")
+        return {'create': True}
