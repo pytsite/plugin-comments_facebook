@@ -33,7 +33,7 @@ class Comments(_widget.Abstract):
         """
         return _html.Div(
             uid=self.uid,
-            cls='fb-comments',
+            css='fb-comments',
             data_href=self._href,
             data_width='100%'
         )
