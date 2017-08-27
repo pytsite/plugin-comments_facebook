@@ -4,6 +4,10 @@
 ## Changelog
 
 
+### 0.1.5 (2017-08-27)
+`plugin.json` updated.
+
+
 ### 0.1.4 (2017-03-21)
 Support fore latest PytSite `widget`'s changes.
 
