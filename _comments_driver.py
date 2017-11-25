@@ -1,9 +1,9 @@
-"""PytSite Facebook Comments Driver.
+"""PytSite Facebook Comments Driver Plugin
 """
 import requests as _requests
 from typing import Iterable as _Iterable
-from pytsite import logger as _logger, auth as _auth
-from plugins import comments as _comments
+from pytsite import logger as _logger
+from plugins import auth as _auth, comments as _comments
 from ._widget import Comments as _CommentsWidget
 
 __author__ = 'Alexander Shepetko'

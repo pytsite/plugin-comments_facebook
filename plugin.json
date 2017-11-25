@@ -1,6 +1,6 @@
 {
-  "name": "plugins.comments_facebook",
-  "version": "0.1.5",
+  "name": "comments_facebook",
+  "version": "1.0",
   "description": {
     "en": "Facebook Comments",
     "ru": "Facebook Comments",
@@ -15,8 +15,11 @@
   "requires": {
     "packages": [],
     "plugins": [
+      "assetman",
+      "auth",
+      "comments",
       "facebook",
-      "comments"
+      "widget"
     ]
   }
 }

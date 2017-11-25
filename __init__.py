@@ -1,4 +1,4 @@
-"""PytSite Facebook Comments Driver.
+"""PytSite Facebook Comments Driver Plugin
 """
 
 __author__ = 'Alexander Shepetko'
@@ -11,7 +11,7 @@ def _init():
     from plugins import facebook, comments
     from . import _comments_driver
 
-    tpl.register_package(__name__, alias='facebook')
+    tpl.register_package(__name__)
 
     try:
         facebook.get_app_id()
