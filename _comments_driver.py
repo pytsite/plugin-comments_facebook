@@ -45,7 +45,7 @@ class Driver(_comments.driver.Abstract):
                 count = int(r['share']['comment_count'])
 
         except Exception as e:
-            _logger.error(str(e), exc_info=e, stack_info=True)
+            _logger.error(e)
 
         return count
 
