@@ -24,7 +24,7 @@ class Comments(_widget.Abstract):
             'app_id': self._app_id,
             'language': _lang.ietf_tag(sep='_')
         }
-        _assetman.add_inline(_tpl.render('facebook@fb-js-sdk', js_sdk_args))
+        _assetman.add_inline_js(_tpl.render('facebook@fb-js-sdk', js_sdk_args))
 
     def _get_element(self, **kwargs) -> _html.Element:
         """Get an HTML element representation of the widget.

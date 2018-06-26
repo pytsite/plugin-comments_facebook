@@ -1,6 +1,6 @@
 {
   "name": "comments_facebook",
-  "version": "1.1",
+  "version": "1.2",
   "description": {
     "en": "Facebook Comments",
     "ru": "Facebook Comments",
@@ -13,9 +13,8 @@
     "url": "https://shepetko.com"
   },
   "requires": {
-    "packages": [],
     "plugins": [
-      "assetman",
+      "assetman>=2.0",
       "auth",
       "comments",
       "facebook",
