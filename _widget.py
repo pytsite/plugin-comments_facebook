@@ -1,11 +1,11 @@
 """PytSite Comments Driver Widgets.
 """
-from pytsite import router as _router, lang as _lang, tpl as _tpl, html as _html
-from plugins import assetman as _assetman, widget as _widget, facebook as _facebook
-
-__author__ = 'Alexander Shepetko'
+__author__ = 'Oleksandr Shepetko'
 __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
+
+from pytsite import router as _router, lang as _lang, tpl as _tpl, html as _html
+from plugins import assetman as _assetman, widget as _widget, facebook as _facebook
 
 
 class Comments(_widget.Abstract):

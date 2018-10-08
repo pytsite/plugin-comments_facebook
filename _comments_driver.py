@@ -1,14 +1,14 @@
 """PytSite Facebook Comments Driver Plugin
 """
+__author__ = 'Oleksandr Shepetko'
+__email__ = 'a@shepetko.com'
+__license__ = 'MIT'
+
 import requests as _requests
 from typing import Iterable as _Iterable
 from pytsite import logger as _logger
 from plugins import auth as _auth, comments as _comments
 from ._widget import Comments as _CommentsWidget
-
-__author__ = 'Alexander Shepetko'
-__email__ = 'a@shepetko.com'
-__license__ = 'MIT'
 
 
 class Driver(_comments.driver.Abstract):
